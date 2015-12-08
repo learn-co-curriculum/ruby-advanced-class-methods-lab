@@ -36,7 +36,7 @@ Build a class constructor `Song.create` that initializes a song and saves it to 
 Consider:
 
 ```ruby
-song = Song.create("The Middle")
+song = Song.create
 Song.all.include?(song) #=> true
 ```
 
