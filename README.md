@@ -20,7 +20,7 @@ class Song
   end
 
   def save
-    self.class.all << self
+    self.class.all << self # <= instance of self . class.all
   end
 
 end
